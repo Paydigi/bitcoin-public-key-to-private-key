@@ -1,5 +1,5 @@
 import argparse
-from ecdsa import SECP256k1, VerifyingKey
+from ecdsa import SECP256k1, 0386b252238abbb822ba95ec780a7a917bc1b49a14a8b67c3e628ed369a788a2ca
 import random
 import time
 
@@ -50,3 +50,4 @@ while True:
         with open("found.txt", "a") as file:
             file.write(f"Private Key Decimal: {times}, Public Key Hex: ({pubkey_hex})\n")
         break
+
